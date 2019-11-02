@@ -1,4 +1,3 @@
-//esta funcion se va a ejecutar cuando creemos una persona (prototipo)
 class Persona {
 
     constructor(nombre, apellido, altura) {
@@ -15,8 +14,6 @@ class Persona {
         return this.altura > 1.80;
     }
 }
-
-
 
 var jaime = new Persona('Jaime', 'Cárdenas', 1.79);
 var pepe = new Persona('Pepe', 'Garcia', 1.89);
